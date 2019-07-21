@@ -1,0 +1,150 @@
+Order Strategy for the Pair :: ETHBTC
+********** CONDITION 1 ****************
+BTCUSDT 24change Percentage 0.082 < 3.0 :: true
+********** CONDITION 2 ****************
+ETHBTC delta change in last 10m 0.3944402704733318 < 1.5 :: true
+********** CONDITION 3 & 4 ************
+2019-07-21T03:26:55:557 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=12.081327447999996, lowestAsk=0.021386, btcBidVolume=15.336948490000001} :: true
+2019-07-21T03:26:56:273 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:536 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:557 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:565 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:684 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:779 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:820 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:844 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:869 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:889 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:925 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:933 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:942 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:956 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:56:983 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.399957089999997, lowestAsk=0.021387, btcBidVolume=15.379635017000002} :: true
+2019-07-21T03:26:57:081 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.194332037999997, lowestAsk=0.021387, btcBidVolume=15.573036153} :: true
+2019-07-21T03:26:57:275 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.194332037999997, lowestAsk=0.021387, btcBidVolume=15.573036153} :: true
+2019-07-21T03:26:57:289 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.194332037999997, lowestAsk=0.021387, btcBidVolume=15.573036153} :: true
+2019-07-21T03:26:57:319 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.194332037999997, lowestAsk=0.021387, btcBidVolume=15.573036153} :: true
+2019-07-21T03:26:57:425 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.194332037999997, lowestAsk=0.021387, btcBidVolume=15.573036153} :: true
+2019-07-21T03:26:57:495 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.194332037999997, lowestAsk=0.021387, btcBidVolume=15.573036153} :: true
+2019-07-21T03:26:57:904 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.194332037999997, lowestAsk=0.021387, btcBidVolume=15.573036153} :: true
+2019-07-21T03:26:58:225 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.230953374999997, lowestAsk=0.021387, btcBidVolume=16.124548063} :: true
+2019-07-21T03:26:59:718 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.439743018999998, lowestAsk=0.021386, btcBidVolume=16.07857105} :: true
+2019-07-21T03:26:59:990 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:769 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:785 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:794 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:812 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:817 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:825 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:937 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:00:968 :: Check BTC volume condition {highestBid=0.021383, btcAskVolume=13.439614702999997, lowestAsk=0.021386, btcBidVolume=16.055758977} :: true
+2019-07-21T03:27:01:045 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:345 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:366 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:407 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:422 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:429 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:436 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:441 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:455 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:473 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:521 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:534 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:548 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:562 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:579 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:588 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:594 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:626 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:668 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:684 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:692 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:781 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:812 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:922 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:959 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:01:982 :: Check BTC volume condition {highestBid=0.021382, btcAskVolume=13.511781557999997, lowestAsk=0.021385, btcBidVolume=16.027847066} :: true
+2019-07-21T03:27:02:086 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:317 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:328 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:340 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:345 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:357 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:365 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:371 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:375 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:388 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:403 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:443 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:457 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:470 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:494 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:531 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:571 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:578 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:591 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:616 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:694 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:735 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:759 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:788 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:799 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:805 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:824 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:836 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:853 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:861 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:868 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:897 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:912 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:928 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:959 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:02:978 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.081603047999998, lowestAsk=0.021383, btcBidVolume=16.198974817} :: true
+2019-07-21T03:27:03:268 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.976917456999997, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:535 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:674 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:713 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:767 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:791 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:823 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:846 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:855 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:866 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:879 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:898 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:907 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:912 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:941 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:949 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:964 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:04:977 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=13.678991936, lowestAsk=0.021383, btcBidVolume=16.078587071999998} :: true
+2019-07-21T03:27:05:057 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:248 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:276 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:284 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:312 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:317 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:322 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:346 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:352 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:397 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:403 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:433 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:439 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:449 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:464 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:470 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:489 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:517 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:529 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:534 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:546 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+2019-07-21T03:27:05:555 :: Check BTC volume condition {highestBid=0.021378, btcAskVolume=14.050728658999999, lowestAsk=0.021382, btcBidVolume=16.226741908} :: true
+Checked BTC volume conditions for continuos 10sec window :: true
+************** Placing Orders************
+ Step 1 : Placing Buy order : Price :: 0.021487
+ Step 2 : Placing Sell order : Price :: 0.022561
+ Step 3 : Placing Stop Loss : StopPrice :: 0.019983 || Message from Binance API :: Stop loss orders are not supported for this symbol.
+ Step 4 : Wait for 20 seconds
+ Step 5 : Placing Sell order : Price :: 0.021702
+********************************************
