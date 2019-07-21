@@ -25,17 +25,17 @@ InfluxDB is a time series database designed to handle high write and query loads
 
    1. Download or clone the project
    
-   2. Run the below jar file by giving pair either BTC or BNB as command line argument
+   2. Run the below jar file by providing either BTC or BNB as command line argument. This jar file continuosly load the data from             Binance to Influx database
    
            java -jar binance-strategy\target\binance-influxdb.jar BTC
            
-   3. Goto influx client and run the below queries to verify the orderbook updates and the price updates.
+   3. Goto influx client and run the below queries to verify the orderbook updates and the price updates
    
           select count(*) from "stock_retention"."orderbook";
           
           select count(*) from "stock_retention"."pricehistory";
           
-   4. Run the below jar file to place a order strategy. Added argument parser to get the input from command line.
+   4. Run the below jar file in another command prompt to place a strategy order. Added argument parser to get the input from                 command line
     
       Check the command line arguments:
       
