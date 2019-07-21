@@ -1,6 +1,8 @@
-## Binance-InfluxDB-Grafana
+## Binance-Strategy-InfluxDB
 
-   *This application is used to store the Order Updates into the InfluxDB. This code handles all BTC pairs order updates and store it in Influx database. The stored data are visualized using Grafana tool.*
+   *This application is used to store the Order updates and the Price updates into the InfluxDB. This code handles all BTC pairs order updates and price updates. The stored data are visualized using Grafana tool.*
+   
+   *This application also create binance strategy from the local cached database and place the order for given atl-coin. Refer the strategy creation requirement file docs/strategy_requirement.docs*
    
 ### InfluxDB Setup
 
@@ -17,6 +19,40 @@ InfluxDB is a time series database designed to handle high write and query loads
    5. Run influx (client)
 
    Note: InfluxDB server runs with the default port http://127.0.0.1:8086
+
+
+## Start Project
+
+   1. Download or clone the project
+   
+   2. Run the below jar file by giving pair either BTC or BNB as command line argument
+   
+           java -jar binance-strategy\target\binance-influxdb.jar BTC
+           
+   3. Goto influx client and run the below queries to verify the orderbook updates and the price updates.
+   
+          select count(*) from "stock_retention"."orderbook";
+          
+          select count(*) from "stock_retention"."pricehistory";
+          
+   4. Run the below jar file to place a order strategy. Added argument parser to get the input from command line.
+    
+      Check the command line arguments:
+      
+          java -jar binance-strategy\target\binance-strategy.jar
+            Missing required options: a, m
+            usage: utility-name
+             -a,--altcoin <arg>     BTC pair alt-coin eg: ETHBTC
+             -k,--apikey <arg>      Binance API-Key
+             -m,--runmode <arg>     Run mode either test/real
+             -s,--secretkey <arg>   Binance Secret-Key
+   
+      Actual Run:
+      
+          java -jar binance-strategy\target\binance-strategy.jar -a ETHBTC -m test > output.txt
+          
+          Note: Sample output file is available under docs folder docs/output.txt
+          
 
 ### Grafana Tool Setup
 
@@ -61,25 +97,5 @@ Using Grafana GUI
    4. Repeat the above step #2 by adding new panel in the same dashboard. And in the Queries section add the below query for ASKS
           
           SELECT "price", "quantity", "price"*"quantity"  as Total FROM "stock_retention".$BTCPAIRS WHERE ("category" = 'ASKS') AND $timeFilter 
-  
-## Start Project
-
-   1. Download or clone the project
-   
-   2. Run the below jar file by giving pair either BTC or BNB as command line argument
-   
-           java -jar binance-influxdb\target\binance-influxdb-1.0.0.jar BTC 
-           
-   3. Goto influx client and run the below query to verify the database update   
-   
-          show measurements;
-         
-   4. Open Grafana and check the real time visualization.
-
-
-   **Note: Refer visualization screenshot added inside docs folder.**
-
-
-
-   
- 
+     
+   *Note: Refer visualization screenshot added inside docs folder.*
