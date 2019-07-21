@@ -53,6 +53,13 @@ InfluxDB is a time series database designed to handle high write and query loads
           
           Note: Sample output file is available under docs folder docs/output.txt
           
+  5. Verify Order placed request by running below query in influx client
+  
+         select * from "stock_retention"."order_request";
+         
+         select * from "stock_retention"."order_response";
+         Note: This table will be populated when we run the jar file with the argument runmode as real (-m real)
+         
 
 ### Grafana Tool Setup
 
