@@ -2,7 +2,7 @@
 
    *This application is used to store the Order updates and the Price updates into the InfluxDB. This code handles all BTC pairs order updates and price updates. The stored data are visualized using Grafana tool.*
    
-   *This application also create binance strategy from the local cached database and place the order for given atl-coin. Refer the strategy creation requirement file docs/strategy_requirement.docs*
+   *This application also create binance strategy from the local cached database and place the order for given atl-coin. Refer the strategy creation requirement file docs/strategy_requirement.docx*
    
 ### InfluxDB Setup
 
