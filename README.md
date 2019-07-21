@@ -51,7 +51,7 @@ InfluxDB is a time series database designed to handle high write and query loads
       
           java -jar binance-strategy\target\binance-strategy.jar -a ETHBTC -m test > output.txt
           
-          Note: Sample output file is available under docs folder docs/output.txt
+          Note: Attached output file under the docs folder docs/output.txt
           
   5. Verify Order placed request by running below query in influx client
   
