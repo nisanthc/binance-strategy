@@ -37,7 +37,7 @@ InfluxDB is a time series database designed to handle high write and query loads
           
    4. Run the below jar file in another command prompt to place a strategy order. Added argument parser to get the input from                 command line
     
-      Check the command line arguments:
+      Check the command line arguments and its descriptions:
       
           java -jar binance-strategy\target\binance-strategy.jar
             Missing required options: a, m
